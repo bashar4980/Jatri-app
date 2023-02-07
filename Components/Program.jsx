@@ -1,11 +1,12 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Program = () => {
     return (
-        <section className="">
+        <section className="mt-28">
         <div className="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-          <div className="max-w-xl">
-            <h2 className="text-3xl font-bold sm:text-4xl">Programs that can be taken</h2>
+          <div className="">
+            <h2 className="text-3xl text-center  sm:text-5xl mb-10">Programs that can <br></br>be taken</h2>
       
           </div>
       
@@ -13,202 +14,94 @@ const Program = () => {
             className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
           >
             <div className="flex items-start">
-              <span className="flex-shrink-0 rounded-lg bg-gray-800 p-4">
-                <svg
-                  className="h-5 w-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                  <path
-                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                  ></path>
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                  ></path>
-                </svg>
+              <span className="p1 flex-shrink-0 rounded-full bg-gray-800 py-4 px-5">
+                <Image src="/Gets.png" alt="img" width={50} height={50}></Image>
               </span>
       
               <div className="ml-4">
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">Gets ABS in 2 weeks</h2>
       
-                <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                  Quaerat, saepe?
+                <p className="mt-1 text-sm text-[#262524] opacity-50">
+                Exercise is a very important<br></br>need for our body. 
                 </p>
               </div>
             </div>
       
             <div className="flex items-start">
-              <span className="flex-shrink-0 rounded-lg bg-gray-800 p-4">
-                <svg
-                  className="h-5 w-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                  <path
-                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                  ></path>
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                  ></path>
-                </svg>
+              <span className="p2 flex-shrink-0 ">
+                <Image src="/man-doing-yoga.png" alt="img" width={50} height={50}></Image>
               </span>
       
               <div className="ml-4">
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">25 Mins full body workout</h2>
       
-                <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                  Quaerat, saepe?
+                <p className="mt-1 text-sm text-[#262524] opacity-50">
+                Exercise is a very important<br></br>need for our body. 
                 </p>
               </div>
             </div>
+      
       
             <div className="flex items-start">
-              <span className="flex-shrink-0 rounded-lg bg-gray-800 p-4">
-                <svg
-                  className="h-5 w-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                  <path
-                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                  ></path>
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                  ></path>
-                </svg>
+              <span className="p3 flex-shrink-0 rounded-full bg-gray-800 py-4 px-5">
+                <Image src="/stretching.png" alt="img" width={50} height={50}></Image>
               </span>
       
               <div className="ml-4">
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">10 Mins toned arms workout</h2>
       
-                <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                  Quaerat, saepe?
+                <p className="mt-1 text-sm text-[#262524] opacity-50">
+                Exercise is a very important<br></br>need for our body. 
                 </p>
               </div>
             </div>
-      
+
             <div className="flex items-start">
-              <span className="flex-shrink-0 rounded-lg bg-gray-800 p-4">
-                <svg
-                  className="h-5 w-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                  <path
-                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                  ></path>
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                  ></path>
-                </svg>
+              <span className="p4 flex-shrink-0 rounded-full bg-gray-800 py-4 px-5">
+                <Image src="/man-doing-yoga-4.png" alt="img" width={50} height={50}></Image>
               </span>
       
               <div className="ml-4">
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">15 Mins full body fat burn</h2>
       
-                <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                  Quaerat, saepe?
+                <p className="mt-1 text-sm text-[#262524] opacity-50">
+                Exercise is a very important<br></br>need for our body. 
                 </p>
               </div>
             </div>
-      
+
+            
             <div className="flex items-start">
-              <span className="flex-shrink-0 rounded-lg bg-gray-800 p-4">
-                <svg
-                  className="h-5 w-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                  <path
-                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                  ></path>
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                  ></path>
-                </svg>
+              <span className="p5 flex-shrink-0 rounded-full bg-gray-800 py-4 px-5">
+                <Image src="/person-practicing-a-strengthen-posture.png" alt="img" width={50} height={50}></Image>
               </span>
       
               <div className="ml-4">
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">25 Mins HIIT workout</h2>
       
-                <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                  Quaerat, saepe?
+                <p className="mt-1 text-sm text-[#262524] opacity-50">
+                Exercise is a very important<br></br>need for our body. 
                 </p>
               </div>
             </div>
       
+           
+      
+          
             <div className="flex items-start">
-              <span className="flex-shrink-0 rounded-lg bg-gray-800 p-4">
-                <svg
-                  className="h-5 w-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                  <path
-                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-                  ></path>
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                  ></path>
-                </svg>
+              <span className="p6 flex-shrink-0 ">
+                <Image src="/yoga-posture-.png" alt="img" width={50} height={50}></Image>
               </span>
       
               <div className="ml-4">
-                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                <h2 className="text-lg font-bold">Intense lower Abs workout</h2>
       
-                <p className="mt-1 text-sm text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                  Quaerat, saepe?
+                <p className="mt-1 text-sm text-[#262524] opacity-50">
+                Exercise is a very important<br></br>need for our body. 
                 </p>
               </div>
             </div>
+
           </div>
         </div>
       </section>

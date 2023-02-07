@@ -2,15 +2,13 @@ import React from "react";
 
 const Info = () => {
   return (
-    <section className="overflow-hidden  sm:grid sm:grid-cols-2">
+    <div className="mx-[20px] grid lg:grid-cols-2 mt-28">
       <div className="">
-        <div className="mx-auto max-w-xl text-center sm:text-left">
-          <h2 className="text-2xl  text-gray-900 sm:text-5xl">
-            Healthy in side
+        <div className="max-w-xl mb-5 sm:text-left">
+          <h2 className="text-2xl   text-gray-900 sm:text-5xl">
+            Healthy in side <br></br> fresh out side
           </h2>
-          <h2 className="text-2xl  text-gray-900 sm:text-5xl">
-            fresh out side
-          </h2>
+          
         </div>
       </div>
 
@@ -23,7 +21,7 @@ const Info = () => {
           excited to live the day
         </p>
       </div>
-    </section>
+    </div>
   );
 };
 

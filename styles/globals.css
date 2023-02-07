@@ -7,3 +7,62 @@
   box-sizing: border-box;
 }
 
+.p1 , .p5{
+  background: linear-gradient(45.98deg, #5478EF 19.69%, #D6DFFF 92.63%);
+box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+width: 100px;
+height: 100px;
+display: grid;
+      place-items: center;
+border-radius: 50%;
+}
+.p2 , .p6{
+  background: linear-gradient(50.31deg, #4BACE1 15.91%, #D8F1FF 92.82%);
+box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+width: 100px;
+height: 100px;
+display: grid;
+      place-items: center;
+border-radius: 50%;
+
+
+}
+.p7{
+  background: linear-gradient(0deg, #E275CD, #E275CD);
+  width: 69px;
+  height: 69px;
+  border-radius: 20px;
+  display: grid;
+      place-items: center;
+}
+.p3{
+  background: linear-gradient(35.49deg, #DD69C7 15.2%, #FFC0F3 87.25%);
+  width: 100px;
+height: 100px;
+display: grid;
+      place-items: center;
+border-radius: 50%;
+}
+.p4{
+  background: linear-gradient(35.49deg, #DD69C7 15.2%, #FFC0F3 87.25%);
+  width: 100px;
+height: 100px;
+display: grid;
+      place-items: center;
+border-radius: 50%;
+}
+
+.review1{
+  max-width: 573px;
+  max-height: 323px;
+  background: #FFFFFF;
+box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.1);
+border-radius: 10px;
+}
+
+.banner {
+
+  background-image: linear-gradient(to right top, #f8eafa, #faeffb, #fcf4fc, #fdf9fe, #fffeff);
+
+}
+

@@ -10,35 +10,20 @@ export default function Work() {
 
           <div className=" lg:order-last ">
             <h2 className="text-3xl sm:text-5xl ">
-            Best full body
+            How it works?
             </h2>
-            <h2 className=" mt-2 text-3xl sm:text-5xl" >workout to lose fat</h2>
+            
+             <div className="mb-4 mt-8 shadow-[0_20px_80px_-15px_rgba(51,78,123,0.3)] hover:shadow-2xl  rounded-lg">
+             <p className="py-8 text-[18px] ml-8 ">The body becomes sick because of rarely exercise</p>
+             </div>
+             <div className=" mb-4 shadow-[0_20px_80px_-15px_rgba(51,78,123,0.3)] hover:shadow-2xl  rounded-lg">
+             <p className="py-8 text-[18px] ml-8 ">Don`t give up in order to get a healthy and ideal body</p>
+             </div>
+             <div className="shadow-[0_20px_80px_-15px_rgba(51,78,123,0.3)] hover:shadow-2xl  rounded-lg">
+             <p className="py-8 text-[18px] ml-8 ">Become addicted to the exercise that is given</p>
+             </div>
 
-            <p className=" mt-4 text-[#262524] text-[16px] text-justify leading-7  opacity-50">
-            Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. 
-            </p>
-
-            <a
-              href="#"
-              className="mt-10 inline-flex items-center rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-            >
-              <span className="text-sm font-medium"> Get Started </span>
-
-              <svg
-                className="ml-3 h-5 w-5"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
-            </a>
+           
           </div>
           <div className="mx-auto max-w-xl">
           <Image src="/Feature3.png" alt="fearure_img" width={570} height={496}></Image>

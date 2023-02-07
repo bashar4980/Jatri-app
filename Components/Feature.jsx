@@ -4,10 +4,10 @@ import React from 'react'
 export default function Feature() {
   return (
   
-     <div className="p-6 py-12 bg-[#6462F0] rounded my-[120px]">
+     <div className="mx-[20px] p-6 py-12 bg-[#6462F0] rounded my-[120px]">
 	<div className="container mx-auto">
-		<div className="grid lg:grid-cols-3 gap-4 justify-items-center">
-			<div className='flex items-center  gap-[30px]'>
+		<div className="grid lg:grid-cols-3 gap-2 justify-items-center">
+			<div className='flex items-center  gap-[50px]'>
                     <div  class=" rounded-lg relative bg-[url(https://i.ibb.co/VwcH9QC/bg.png)] bg-cover bg-center bg-no-repeat px-6 py-5">
                <Image className="" src="/crucified-pose.png" height={50} width={50} alt="img" ></Image>
              
