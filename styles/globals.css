@@ -5,7 +5,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Darker Grotesque', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;600;700&family=Poppins:wght@200;300;400;600;700&display=swap');
 
 .p1 , .p5{
   background: linear-gradient(45.98deg, #5478EF 19.69%, #D6DFFF 92.63%);
